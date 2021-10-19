@@ -6,42 +6,56 @@
   <meta http-equiv="X-UA-compatible" content="ie=edge">
   <title>STAGE 4 TASK</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
   </head>
   <body>
-      <div id="navbar">
-          <div id="nav-links">
-              <a href="index.html">Home</a>
-              <a href="about.html">About</a>
-              <a href="services.html">Services</a>
-              <a href="register.html">Register</a>
-              <a href="contact.html">Contact</a>
-          </div>
+      <div class="navbar">
+          <div class="Logo">BELIEVE</div>
+          <ul class="nav-links">
+             <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="register.html">Register</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </u>
           <img src="images/menu (8).svg" alt="" class="menu-btn">
       </div>
-   <header>
-    <div id="content">
-        <h1> Contact Us</h1>
-        <P> Email us with any questions or inquiries, our team will be happy to answer your question and set up a meeting with you.</P>
-        <img style="margin-left: 290px;" src="images/phone-call.svg"><a> Phone: +1 (234) 567-8910 </a>
-        <br>
-        <img style="margin-left: 290px;"  src="images/mail (1).svg"> Email: <a href="#">believejoseph43@gmail.com </a>
-        <br>
-        <img style="margin-left: 290px;" src="images/map-pin.svg"><a> Address: 20 Ojodu Estate Ojodu Berger, Lagos Nigeria.</a>
-        <fieldset> 
-            <legend id="contact-us"></legend>
-
-            <input type="text" id="name" name="name" placeholder="First name" required /><br/>
-            
-            <input type="name" id="name" name="email" placeholder="Last name" required /><br/>
-
-            <textarea name="textarea" placeholder="Please enter your comment here.."></textarea><br/>
-
-            <input type="submit" value="Submit" id="submit" />
-        </fieldset>
-</div>
-</header>
-<div id="footer">
-    <p>&copy; 2021 | All Rights Reserved - Designed by <a href="#"> Menim Joseph </a></p>
-</div>
+      <header>
+        <div class=" contact-container">
+            <div class="Me">
+                <h1> Contact Us</h1>
+                <P> Email us with any questions or inquiries, our team will be happy to answer your question and set up a meeting with you.</P>
+                <img style="margin-left: 290px;" src="images/phone-call.svg"><a> Phone: +1 (234) 567-8910 </a>
+                <br>
+                <img style="margin-left: 290px;"  src="images/mail (1).svg"> Email: <a href="#">believejoseph43@gmail.com </a>
+                <br>
+                <img style="margin-left: 290px;" src="images/map-pin.svg"><a> Address: 20 Ojodu Estate Ojodu Berger, Lagos Nigeria.</a>
+            </div>
+            <fieldset> 
+                <legend id="contact-us"></legend>
+    
+                <input type="text" id="name" name="name" placeholder="First name" required /><br/>
+                
+                <input type="name" id="name" name="email" placeholder="Last name" required /><br/>
+    
+                <textarea name="textarea" placeholder="Please enter your comment here.."></textarea><br/>
+    
+                <input type="submit" value="Submit" id="submit" />
+            </fieldset>
+    </div>
+    </header>
+    <div class="fot-footer">
+        <div class="footer">
+            <p>&copy; 2021 | All Rights Reserved - Designed by <a href="#"> Menim Joseph </a></p>
+        </div>
+    </div>
 </body>
+<script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-links')
+
+    menuBtn.addEventListener('click', () =>{
+        navlinks.classList.toggle('mobile-menu')
+    })
+</script>
 </html>
