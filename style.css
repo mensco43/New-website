@@ -197,7 +197,7 @@ section{
   font-size: 4vmin; 
   color: #49497e; 
 }
-.line2{
+/*.line2{
     width: 150px;
     height: 4px;
     background: #fc036b;
@@ -206,7 +206,7 @@ section{
     margin-top: 9px;
     margin-bottom: 10px;
     align-items: center;  
-}
+}*/
 .row{
     display: flex;
     align-items: center;
@@ -671,7 +671,7 @@ img:hover{
     .Logo{
         position: absolute;
         top: 30px;
-        left: 80px;
+        left: 40px;
     }
     .nav-links{
         flex-direction: column;
@@ -682,7 +682,7 @@ img:hover{
         margin-top: -900px;
     }
     .nav-links img{
-        margin-right: 70px;
+        margin-right: 20px;
         width: 30px;
         display: flex;
     }
@@ -781,13 +781,13 @@ img:hover{
         }
         .line2{
             width: 150px;
-            margin-right: 60px;
+            margin-left: 20px;
         }
         .container{
             background-color: cornsilk;
             width: 940px;
             height: 700px;
-            margin-top: 70px;
+            margin-top: 85px;
             padding: 20px;
         }
         .container p{
