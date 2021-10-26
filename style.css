@@ -815,14 +815,32 @@ img:hover{
         .register-container{
             background-color: cornsilk;
             width: 940px;
-            height: 900px;
+            height: 950px;
             margin-top: 400px;
             padding: 60px; 
             flex-direction: column;
             margin-left: 170px;
         }
+        .register-container #option p{
+                font-size:20px;
+                width: 70%;
+                margin-left: 20px;
+                color:#1f2020;
+        }
+        .register-container #option img{
+                    width: 400px;
+                    height: 300px;
+                    margin-top: 40px;
+                    margin-left: 10px;
+                    border-radius: 20px;
+        } 
+        .register-container #option-1{
+            width:380px;
+            text-align:center;
+            margin-left: 20px;
+            }
          .main-footer{
-             margin-top: 300px;
+             margin-top: 400px;
          }
         #option p{
             font-size: 15px;
