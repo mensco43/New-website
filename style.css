@@ -791,13 +791,16 @@ img:hover{
             background-color: cornsilk;
             width: 940px;
             height: 750px;
-            margin-top: 97px;
+            margin-top: 140px;
             padding: 20px;
         }
         .container p{
             overflow: scroll;
             height: 600px;
             margin-top: 10px;
+        }
+        .events{
+            margin-top: 100px;
         }
         .cont-1-info{
             flex-direction: column;
