@@ -885,7 +885,7 @@ img:hover{
             border-radius: 10px;
             width: 200px;
             height: 390px;
-            left: 30px;
+            left: 27px;
             top: 450px;
             box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
             border-radius: 10px;
@@ -906,7 +906,7 @@ img:hover{
     input[type="text"]:focus, input[type="name"]:focus{
         border: 1.5px solid black;
     }
-    textarea{
+    /*textarea{
         width: 90%;
         height: 100px;
         resize: none;
@@ -916,14 +916,14 @@ img:hover{
         margin-top: 20px;
         outline: none;
         border: 1.4px dashed black;
-    }
+    }*/
     fieldset input[type=submit]{
         color: #FFFFFF;
         width:80px;
         height:45px;
         margin-top: 40px;
         padding: 5px;
-        margin-left: 160px;
+        margin-left: 170px;
         border-radius: 20px;
         font-size: 18px;
         font-weight: 600;
