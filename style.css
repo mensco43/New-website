@@ -831,15 +831,15 @@ img:hover{
         }
         .register-container #option p{
                 font-size:20px;
-                width: 70%;
-                margin-left: 25px;
+                width: 60%;
+                margin-left: 29px;
                 color:#1f2020;
         }
         .register-container #option img{
                     width: 350px;
                     height: 300px;
                     margin-top: 40px;
-                    margin-left:20px;
+                    margin-left:25px;
                     border-radius: 20px;
         } 
         .register-container #option-1{
@@ -884,9 +884,9 @@ img:hover{
             border-radius: 10px;
             padding: 30px;
             position: absolute;
-            width: 100px;
+            width: 200px;
             height: 390px;
-            left: 10px;
+            left: 18px;
             top: 450px;
             box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
             border-radius: 10px;
@@ -894,7 +894,7 @@ img:hover{
         }
         input[type="text"],
         input[type="name"]{
-        width: 90%;
+        width: 80%;
         padding: 8px 10px;
         font-size: 15px;
         border-radius: 5px;
@@ -920,7 +920,7 @@ img:hover{
     }
     fieldset input[type=submit]{
         color: #FFFFFF;
-        width:130px;
+        width:95px;
         height:45px;
         margin-top: 40px;
         padding: 5px;
