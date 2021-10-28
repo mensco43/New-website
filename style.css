@@ -881,12 +881,11 @@ img:hover{
             overflow: hidden;
         }
         fieldset{
+            overflow: hidden;
             border-radius: 10px;
-            padding: 30px;
-            position: absolute;
             width: 200px;
             height: 390px;
-            left: 20px;
+            left: 30px;
             top: 450px;
             box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
             border-radius: 10px;
@@ -924,7 +923,7 @@ img:hover{
         height:45px;
         margin-top: 40px;
         padding: 5px;
-        margin-left: 180px;
+        margin-left: 160px;
         border-radius: 20px;
         font-size: 18px;
         font-weight: 600;
