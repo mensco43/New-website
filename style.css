@@ -253,7 +253,7 @@ section{
 .container{
     background-color: cornsilk;
     width: 940px;
-    height: 570px;
+    height: 600px;
     margin-top: 20px;
     padding: 20px;
 }
@@ -262,15 +262,19 @@ section{
     margin-top: 20px;
     margin-bottom: 25px;
 }
+.container h2{
+    margin-top: 40px;
+}
 .service-container{
     background-color: cornsilk;
     width: 940px;
-    height: 570px;
+    height: 600px;
     margin-top: 20px;
     padding: 60px;
 }
 .cont-1 {
     height: 150px;
+    margin-top: 40px;
     margin-bottom: px 0;
     
 
@@ -413,7 +417,7 @@ img:hover{
         background-color: cornsilk;
         width: 940px;
         height: 600px;
-        margin-top: 100px;
+        margin-top: 90px;
         padding: 60px; 
         /*display: flex;
         justify-content: space-between; */
@@ -786,13 +790,14 @@ img:hover{
         .container{
             background-color: cornsilk;
             width: 940px;
-            height: 700px;
-            margin-top: 85px;
+            height: 750px;
+            margin-top: 97px;
             padding: 20px;
         }
         .container p{
-            overflow: hidden;
+            overflow: scroll;
             height: 600px;
+            margin-top: 10px;
         }
         .cont-1-info{
             flex-direction: column;
@@ -828,10 +833,10 @@ img:hover{
                 color:#1f2020;
         }
         .register-container #option img{
-                    width: 400px;
+                    width: 380px;
                     height: 300px;
                     margin-top: 40px;
-                    margin-left: ;
+                    margin-left:15px;
                     border-radius: 20px;
         } 
         .register-container #option-1{
